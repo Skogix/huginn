@@ -55,7 +55,7 @@ Simple stand-alone usage (use only for testing/evaluation as it can not be updat
 
 Use a volume to export the data of the internal mysql server:
 
-    docker run --rm -it -p 3000:3000 -v /home/huginn/mysql-data:/var/lib/mysql ghcr.io/huginn/huginn
+    docker run --rm -it -p 3000:3000 -v huginn:/var/lib/mysql ghcr.io/huginn/huginn
 
 To link to another mysql container, for example:
 
